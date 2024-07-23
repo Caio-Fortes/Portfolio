@@ -1,0 +1,10 @@
+//Variables
+
+$BlackDefault: #111418;
+$GreenDefault: #40928A;
+
+//Mixins
+
+@mixin setColor($a){
+    color: $a;
+}

@@ -1,7 +1,5 @@
 #tasks 
 
-1 - configurar o sass com as paletas de cores
-2 - anexar link no cv e linkedin
 3 - configurar o projeto back-end
 4 - configurar axios e buscar primeiros dados
 5 - começar desenvolvimento
