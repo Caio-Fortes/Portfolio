@@ -1,9 +1,13 @@
 <script setup>
+  import Header from './components/Header.vue';
 </script>
 
 <template>
-  <header>
-  </header>
-  <main>
-  </main>
+    <div id="#container">
+      <header>
+        <Header />
+      </header>
+      <main>
+      </main>
+  </div>
 </template>

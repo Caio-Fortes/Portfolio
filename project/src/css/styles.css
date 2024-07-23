@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "default";
+  src: url("/fonts/Poppins-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "semiBold";
+  src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #111418;
+  color: #fff;
+  font-family: "default";
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+#headerPainel {
+  font-family: "semiBold";
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */
