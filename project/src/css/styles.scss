@@ -1,5 +1,15 @@
 @import './_helpers.scss';
 
+@font-face {
+    font-family: 'default';
+    src: url('/fonts/Poppins-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'semiBold';
+    src: url('/fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
 html{
     scroll-behavior: smooth;
     height: 100%;
@@ -9,7 +19,8 @@ html{
 body{
     margin: 0;
     background-color: $BlackDefault;
-    font-family: 'FonteDefault';
+    color: #fff;
+    font-family: 'default';
     height: 100%;
     width: 100%;
 }
@@ -22,3 +33,16 @@ img{
 li{
     list-style-type: none
 }
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+#headerPainel{
+    font-family: 'semiBold';
+    display: flex;
+}
+

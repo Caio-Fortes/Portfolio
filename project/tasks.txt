@@ -1,5 +1,6 @@
 #tasks 
 
-3 - configurar o projeto back-end
-4 - configurar axios e buscar primeiros dados
-5 - começar desenvolvimento
+1 - desenvolvimento front da interface;
+3 - configurar o projeto back-end para montar os projetos - (image, descrição, tecnoloigas);
+4 - configurar axios e buscar os projetos via api;
+5 - montar a parte dos projetos dinamicamente(front);
