@@ -4,7 +4,7 @@
     export default{
         data(){
             return{
-                links: ['Home', 'Portfolio', 'Contato']
+                linksHeader: ['Home', 'Portfolio', 'Contato']
             }
         }
     }
@@ -13,7 +13,7 @@
 <template>
     <div>
         <ul id="headerContainer"> 
-            <li v-for="link in links" id="linksHeader">
+            <li v-for="link in linksHeader" id="linksHeader">
                 <a href=""> {{ link }} </a> 
             </li>
         </ul>
@@ -26,10 +26,18 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
                 Integer tellus est, finibus ut congue sed, faucibus ut dui.
             </p>
+            <div id="iconsContainer">
+                <a id="icons" href="https://www.linkedin.com/in/caio-fortes/" title="Linkedin">
+                    <img src="/icons/linkedin.png" class="imageIcon"/>
+                </a>
+                <a id="icons" href="https://github.com/Caio-Fortes" title="Github">
+                    <img src="/icons/github.png" class="imageIcon"/>
+                </a>
+            </div>
         </div>
         <div id="painelSeparator"></div>
         <div id="imageProfile">
-            <img src="/images/profileTwo.png" />
+            <img src="/images/profileTwo.png"/>
         </div>
     </div>
 </template>

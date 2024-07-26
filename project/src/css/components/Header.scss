@@ -32,6 +32,30 @@
     border-radius: 1px;
 }
 
+#iconsContainer{
+    display: flex;
+}
+
+#icons{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px ;
+}
+
+#icons:hover{
+    border: 2px solid $GreenDefault;
+}
+
+.imageIcon{
+    width: 10px;
+}
+
 #imageProfile{
     width: 268px;
 }
