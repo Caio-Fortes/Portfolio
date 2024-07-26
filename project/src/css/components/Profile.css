@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "default";
+  src: url("/fonts/Poppins-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "semiBold";
+  src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "bold";
+  src: url("/fonts/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "regular";
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+}
+#containerPrincipal {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 60px;
+}
+
+#imageProfile {
+  width: 268px;
+  margin-right: 122px;
+}
+
+#profileNameDescription {
+  width: 348px;
+}
+
+#btnDownloadCv {
+  background-color: #40928A;
+  border: none;
+  color: #d2d2d2;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 18px;
+  font-family: "bold";
+  margin-top: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#btnDownloadCv:hover {
+  transform: scale(1.1);
+  background-color: #306f68;
+}/*# sourceMappingURL=Profile.css.map */
