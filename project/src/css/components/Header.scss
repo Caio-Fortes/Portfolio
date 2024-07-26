@@ -1,0 +1,37 @@
+@import '../helpers';
+
+#headerContainer{
+    display: flex;
+}
+
+#linksHeader{
+    margin-right: 20px;
+    font-family: 'semiBold';
+}
+
+#containerPainel{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#profileNameDescription{
+    width: 348px;
+}
+
+.hello{
+    color: $GreenDefault;
+    font-family: 'bold';
+}
+
+#painelSeparator{
+    width: 1px;
+    height: 70px;
+    background-color: rgba(241, 241, 241, 0.979);
+    margin: 0px 40px 0px 40px;
+    border-radius: 1px;
+}
+
+#imageProfile{
+    width: 268px;
+}

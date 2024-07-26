@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "default";
+  src: url("/fonts/Poppins-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "semiBold";
+  src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "bold";
+  src: url("/fonts/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "regular";
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+}
+#headerContainer {
+  display: flex;
+}
+
+#linksHeader {
+  margin-right: 20px;
+  font-family: "semiBold";
+}
+
+#containerPainel {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#profileNameDescription {
+  width: 348px;
+}
+
+.hello {
+  color: #40928A;
+  font-family: "bold";
+}
+
+#painelSeparator {
+  width: 1px;
+  height: 70px;
+  background-color: rgba(241, 241, 241, 0.979);
+  margin: 0px 40px 0px 40px;
+  border-radius: 1px;
+}
+
+#imageProfile {
+  width: 268px;
+}/*# sourceMappingURL=Header.css.map */

@@ -4,3 +4,8 @@
 3 - configurar o projeto back-end para montar os projetos - (image, descrição, tecnoloigas);
 4 - configurar axios e buscar os projetos via api;
 5 - montar a parte dos projetos dinamicamente(front);
+
+diferenciais:
+- usuário escolher o idioma
+- usar alguma abordagem de avaliação (api linkedin)
+- dark mode;

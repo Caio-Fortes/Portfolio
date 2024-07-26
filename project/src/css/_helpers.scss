@@ -2,6 +2,29 @@
 
 $BlackDefault: #111418;
 $GreenDefault: #40928A;
+$WhiteParagrafs: rgb(241 241 241 / 92%);
+
+//fonts
+
+@font-face {
+    font-family: 'default';
+    src: url('/fonts/Poppins-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'semiBold';
+    src: url('/fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+}
 
 //Mixins
 
