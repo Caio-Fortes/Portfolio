@@ -23,8 +23,9 @@
             <h3 class="hello">Olá!</h3>
             <h1>Eu sou Caio Fortes</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-                Integer tellus est, finibus ut congue sed, faucibus ut dui.
+                Sou um desenvolvedor comprometido em proporcionar 
+                ótimas experiências digitais, unindo a inovação e a 
+                criatividade em cada projeto. 
             </p>
             <div id="iconsContainer">
                 <a id="icons" href="https://www.linkedin.com/in/caio-fortes/" title="Linkedin">
