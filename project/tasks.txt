@@ -9,3 +9,4 @@ diferenciais:
 - usuário escolher o idioma
 - usar alguma abordagem de avaliação (api linkedin)
 - dark mode;
+- alterar mouse na aplicação

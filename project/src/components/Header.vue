@@ -4,7 +4,7 @@
     export default{
         data(){
             return{
-                linksHeader: ['Home', 'Portfolio', 'Contato']
+                linksHeader: ['Home', 'Habilidades', 'Portfolio', 'Contato']
             }
         }
     }

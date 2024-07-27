@@ -8,32 +8,46 @@
                     {
                         imageIcon: '/icons/html-skills.png',
                         title:'Aplicativos Web',
-                        description: 'teste'
+                        description: `
+                            Desenvolvimento de aplicações web eficientes e 
+                            responsivas.
+                        `
                     },
                     {
                         imageIcon: '/icons/android-skills.png',
                         title:'Aplicativos Mobile',
-                        description: 'teste'
+                        description: `
+                            Desenvolvimento de aplicativos móveis híbridos 
+                            com foco em ótimas experiências digitais.
+                        ` 
                     },
                     {
                         imageIcon: '/icons/design-skills.png',
                         title:'Design UX | UI',
-                        description: 'teste'
+                        description: `
+                            Habilidades em Design de interfaces e experiência do usuário.
+                        `
                     },
                     {
                         imageIcon: '/icons/front-end-skills.png',
-                        title:'Front-End',
-                        description: 'teste'
+                        title:'Front-End', 
+                        description: `
+                            Construção de interfaces interativas
+                            utilizando frameworks modernos.
+                        `
                     },
                     {
                         imageIcon: '/icons/back-end-skills.png',
                         title:'Back-End',
-                        description: 'teste'
+                        description: `
+                            Desenvolvimento de servidores e APIs, assegurando funcionalidade e 
+                            segurança.
+                        `
                     },
                     {
                         imageIcon: '/icons/github-skills.png',
                         title:'Versionamento',
-                        description: 'teste'
+                        description: ' Habilidades em controle de versão para garantir a integridade do código.'
                     },
                 ]
             }
@@ -58,7 +72,7 @@
                 {{ skill.title }}
             </div>
             <div class="circle-description">
-                <p>
+                <p class="text-description">
                     {{ skill.description }}
                 </p>
             </div>

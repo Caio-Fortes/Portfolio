@@ -83,4 +83,10 @@
 
 .circle-description {
   margin: 0px 12px 2px 12px;
+  text-align: center;
+}
+
+.text-description {
+  font-size: 11px;
+  line-height: 17px;
 }/*# sourceMappingURL=MyServices.css.map */
