@@ -1,6 +1,7 @@
 <script setup>
   import Header from './components/Header.vue';
   import Profile from './components/Profile.vue';
+  import MyServices from './components/MyServices.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@
       </header>
       <main>
         <Profile />
+        <MyServices />
       </main>
   </div>
 </template>
