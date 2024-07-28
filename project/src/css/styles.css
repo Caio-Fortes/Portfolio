@@ -63,4 +63,23 @@ p {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+}
+
+#titleContainer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-primary-text {
+  font-family: "semiBold";
+  font-size: 20px;
+}
+
+.title-second-text {
+  color: #40928A;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  display: inline-block;
+  width: 23%;
 }/*# sourceMappingURL=styles.css.map */

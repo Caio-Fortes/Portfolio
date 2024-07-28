@@ -1,29 +1,5 @@
 @import '../helpers';
 
-#titleContainer{
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-}
-
-.title{
-    font-family: 'semiBold';
-    font-size: 20px;
-}
-
-.title-habilidades{
-    color: $GreenDefault;
-}
-
-#rowSeparator{
-    background-color: $GreenDefault;
-    width: 42px;
-    height: 3px;
-    position: absolute;
-    margin: 50px;
-    border-radius: 3px;
-}
-
 #SkillsContainer{
     display: flex;
     margin: 20px;

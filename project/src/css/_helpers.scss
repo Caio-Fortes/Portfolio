@@ -29,6 +29,23 @@ $BlackSecondary: #212529;
 
 //Mixins
 
-@mixin setTitlesColor($a){
-    color: $a;
+@mixin setTitlesContainer(){
+    #titleContainer{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-primary-text{
+        font-family: 'semiBold';
+        font-size: 20px;
+    }
+
+    .title-second-text{
+        color: $GreenDefault;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        display: inline-block;
+        width: 23%;
+    }
 }

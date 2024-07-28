@@ -1,6 +1,4 @@
 <script>
-    import '../css/components/MyServices.scss';
-
     export default{
         data(){
             return{
@@ -56,13 +54,7 @@
 </script>
 
 <template>
-   <div id="titleContainer">
-        <h1 class="title">
-            <span>Minhas</span>
-            <span class="title-habilidades"> Habilidades</span>
-        </h1>
-        <div id="rowSeparator"></div>
-   </div>
+   <Title TitleOne="Minhas" TitleTwo="Habilidades" />
    <div id="SkillsContainer">
         <div class="widgets" v-for="skill in skills">
             <div class="circle-icon">
@@ -79,3 +71,8 @@
         </div>
    </div>
 </template>
+
+<script setup>
+    import Title from './TitleContainer.vue';
+    import '../css/components/MyServices.scss';
+</script>

@@ -14,30 +14,6 @@
   font-family: "regular";
   src: url("/fonts/Poppins-Regular.ttf") format("truetype");
 }
-#titleContainer {
-  margin-top: 70px;
-  display: flex;
-  justify-content: center;
-}
-
-.title {
-  font-family: "semiBold";
-  font-size: 20px;
-}
-
-.title-habilidades {
-  color: #40928A;
-}
-
-#rowSeparator {
-  background-color: #40928A;
-  width: 42px;
-  height: 3px;
-  position: absolute;
-  margin: 50px;
-  border-radius: 3px;
-}
-
 #SkillsContainer {
   display: flex;
   margin: 20px;
