@@ -3,6 +3,7 @@
 - desenvolvimento front da interface;
 - scroll diferente;
 - alterar mouse na aplicação;
-- usar alguma abordagem de avaliação (api linkedin)
+- usar alguma abordagem de avaliação minha(api linkedin)
+- usar alguma abordagem de avaliação de cada projeto no portfolio(api forms)
 - dark e light mode;
 - usuário escolher o idioma;

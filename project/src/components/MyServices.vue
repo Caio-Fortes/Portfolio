@@ -55,7 +55,7 @@
 
 <template>
    <Title TitleOne="Minhas" TitleTwo="Habilidades" />
-   <div id="SkillsContainer">
+   <div id="widgetContainer">
         <div class="widgets" v-for="skill in skills">
             <div class="circle-icon">
                 <img :src="skill.imageIcon" />
