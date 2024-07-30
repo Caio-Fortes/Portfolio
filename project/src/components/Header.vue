@@ -28,10 +28,10 @@
                 criatividade em cada projeto. 
             </p>
             <div id="iconsContainer">
-                <a id="icons" href="https://www.linkedin.com/in/caio-fortes/" title="Linkedin">
+                <a id="icons" href="https://www.linkedin.com/in/caio-fortes/" target="_blank" title="Linkedin">
                     <img src="/icons/linkedin.png" class="imageIcon"/>
                 </a>
-                <a id="icons" href="https://github.com/Caio-Fortes" title="Github">
+                <a id="icons" href="https://github.com/Caio-Fortes" target="_blank" title="Github">
                     <img src="/icons/github.png" class="imageIcon"/>
                 </a>
             </div>

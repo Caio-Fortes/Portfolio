@@ -4,7 +4,7 @@
     export default{
         methods:{
             downloadCv() {
-                const pdfPath = '/CV.pdf';
+                const pdfPath = '/Caio Fortes - CV.pdf';
                 const link = document.createElement('a');
                 link.href = pdfPath;
                 link.download = 'CaioFortesCv.pdf';
