@@ -38,7 +38,7 @@
         </div>
         <div id="painelSeparator"></div>
         <div id="imageProfile">
-            <img src="/images/profileTwo.png"/>
+            <img src="/images/myPhoto.png"/>
         </div>
     </div>
 </template>

@@ -19,7 +19,7 @@
 <template>
     <div id="containerPrincipal">
         <div id="imageProfile">
-            <img src="/images/profileCinza.png"/>
+            <img src="/images/myPhotoCinza.png"/>
         </div>
         <div id="profileNameDescription">
             <h3>Sobre mim</h3>
