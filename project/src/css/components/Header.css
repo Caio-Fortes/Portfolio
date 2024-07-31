@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "default";
   src: url("/fonts/Poppins-Italic.ttf") format("truetype");
@@ -27,15 +28,49 @@
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  width: 77pc;
+  height: 38pc;
+  justify-content: space-around;
 }
 
 #profileNameDescription {
-  width: 348px;
+  width: 455px;
 }
 
 .hello {
   color: #40928A;
   font-family: "bold";
+  font-size: xx-large;
+}
+
+.titleName {
+  font-size: -webkit-xxx-large;
+  border-right: 0.1em solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 1s steps(20, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15ch; /* A largura do texto que será exibido */
+  }
+}
+/* Definindo a animação do cursor piscando */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+  }
+}
+.text-descricao {
+  font-size: 16px;
 }
 
 #painelSeparator {
@@ -51,8 +86,8 @@
 }
 
 #icons {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 11px;
   border: 2px solid #ffffff;
   border-radius: 50%;
   padding: 5px;
@@ -71,5 +106,5 @@
 }
 
 #imageProfile {
-  width: 268px;
+  width: 366px;
 }/*# sourceMappingURL=Header.css.map */

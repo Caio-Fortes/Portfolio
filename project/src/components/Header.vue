@@ -21,8 +21,8 @@
     <div id="containerPainel">
         <div id="profileNameDescription">
             <h3 class="hello">Olá!</h3>
-            <h1>Eu sou Caio Fortes</h1>
-            <p>
+            <h1 class="titleName">Eu sou Caio Fortes</h1>
+            <p class="text-descricao"> 
                 Sou um desenvolvedor comprometido em proporcionar 
                 ótimas experiências digitais, unindo a inovação e a 
                 criatividade em cada projeto. 
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div id="painelSeparator"></div>
-        <div id="imageProfile">
+        <div class="imageProfile">
             <img src="/images/myPhoto.png"/>
         </div>
     </div>

@@ -1,6 +1,4 @@
 <script>
-    import '../css/components/Profile.scss';
-
     export default{
         methods:{
             downloadCv() {
@@ -17,6 +15,7 @@
 </script>
 
 <template>
+    <Title TitleOne="Descrição" TitleTwo="Pessoal" />
     <div id="containerPrincipal">
         <div id="imageProfile">
             <img src="/images/myPhotoCinza.png"/>
@@ -38,3 +37,8 @@
         </div>
     </div>
 </template>
+
+<script setup>
+    import Title from './TitleContainer.vue';
+    import '../css/components/MyServices.scss';
+</script>

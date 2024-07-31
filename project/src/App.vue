@@ -10,10 +10,10 @@
       <header>
         <Header />
       </header>
-      <main>
+      <!-- <main>
         <Profile />
         <MyServices />
         <Portfolio />
-      </main>
+      </main> -->
   </div>
 </template>
