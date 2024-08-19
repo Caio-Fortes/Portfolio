@@ -36,5 +36,4 @@
 
 <script setup>
     import Title from './TitleContainer.vue';
-  
 </script>

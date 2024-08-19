@@ -13,12 +13,11 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    width: 77pc;
-    height: 38pc;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
-#profileNameDescription{
+#profileNameDescription{ 
     width: 455px;
 }
 
@@ -29,7 +28,7 @@
 }
 
 .titleName{
-    font-size: -webkit-xxx-large;
+    font-size: xx-large;
     border-right: 0.1em solid white; 
     white-space: nowrap;
     overflow: hidden;
@@ -42,11 +41,10 @@
         width: 0;
     }
     to {
-        width: 15ch; /* A largura do texto que será exibido */
+        width: 15ch; 
     }
 }
 
-/* Definindo a animação do cursor piscando */
 @keyframes blink-caret {
     from, to {
         border-color: transparent;
@@ -57,8 +55,7 @@
 }
 
 .text-descricao{
-    font-size: 16px;
-
+    font-size: 12px;
 }
 
 #painelSeparator{
@@ -93,6 +90,6 @@
     width: 10px;
 }
 
-#imageProfile{
-    width: 366px;
+.imageProfile{
+    width: 326px;
 }
