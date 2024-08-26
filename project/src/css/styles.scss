@@ -1,4 +1,5 @@
 @import './_helpers.scss';
+@import './components.scss';
 
 html{
     scroll-behavior: smooth;
@@ -7,30 +8,49 @@ html{
 }
 
 body{
-    margin: 0;
+    margin: 0px;
     background-color: $BlackDefault;
     color: #fff;
     font-family: 'default';
     height: 100%;
     width: 100%;
+    transition: all 0.5s ease;
 }
 
-ul{
-    padding-inline-start: 0px;
+body.scrolled {
+    background-color: #fff;
+    transition: all 0.5s ease;
 }
 
 li{
     list-style-type: none;
+    font-family: 'semiBold';
 }
 
 a{
     color: #fff; 
     font-size: 12px;
     text-decoration: none;
+    position: relative;
+    display: inline-block;
 }
 
-A:hover{
-    color: $GreenDefault; 
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $GreenDefault;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in-out;
+}
+  
+a:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
 }
 
 img{
@@ -48,8 +68,8 @@ p{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
 }
 
-@include setTitlesContainer();
-@include widgetsContainer();
+//Include Components
+@include Header();
+

@@ -1,5 +1,5 @@
 <script>
-    export default{
+    export default {
         methods:{
             downloadCv() {
                 const pdfPath = '/Caio Fortes - CV.pdf';
@@ -15,14 +15,14 @@
 </script>
 
 <template>
-    <Title TitleOne="Descrição" TitleTwo="Pessoal" />
-    <div id="containerPrincipal">
-        <div id="imageProfile">
+    <div id="containerPainel">
+        <div class="imageProfile">
             <img src="/images/myPhotoCinza.png"/>
         </div>
+       
         <div id="profileNameDescription">
             <h3>Sobre mim</h3>
-            <p>
+            <p class="text-descricao"> 
                 Meu nome é Caio Fortes dos Santos e possuo 2 anos de experiência no mercado de 
                 trabalho como desenvolvedor web, além de 8 anos de experiência acadêmica adquirida 
                 em cursos técnicos e profissionalizantes. Sou graduado em Análise e Desenvolvimento de 
@@ -35,6 +35,7 @@
                 Download Cv
             </button>
         </div>
+        
     </div>
 </template>
 

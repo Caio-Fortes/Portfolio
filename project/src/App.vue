@@ -6,14 +6,12 @@
 </script>
 
 <template>
-    <div id="container_principal">
-      <header>
-        <Header />
-      </header>
-      <!-- <main>
-        <Profile />
-        <MyServices />
-        <Portfolio />
-      </main> -->
-  </div>
+    <header>
+      <Header />
+    </header>
+    <main>
+      <!-- <Profile /> -->
+      <!-- <MyServices />
+      <Portfolio /> -->
+    </main>
 </template>

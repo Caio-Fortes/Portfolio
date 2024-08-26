@@ -1,0 +1,114 @@
+//CSS Components
+
+@mixin Header() {
+    #headerContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: $BlackDefault;
+        z-index: 1000;
+        transition: all 0.5s ease;
+    }
+
+    .linksHeader {
+        margin-right: 20px;
+        list-style: none;
+    }
+
+    #profileIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    #profileContainer{
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    #profileContainer.show{
+        display: flex;
+        margin: 1rem;
+        transition: all 0.5s ease;
+    }
+
+
+    #profileNameDescription{ 
+        width: 455px;
+    }
+    
+    .hello{
+        color: $GreenDefault;
+        font-family: 'bold';
+        font-size: xx-large;
+    }
+    
+    .titleName{
+        font-size: xx-large;
+        border-right: 0.1em solid white; 
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: typing 1s steps(20, end) forwards, blink-caret 0.75s step-end infinite;
+    }
+    
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 15ch; 
+        }
+    }
+    
+    @keyframes blink-caret {
+        from, to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: rgb(255, 255, 255);
+        }
+    }
+    
+    .text-descricao{
+        font-size: 12px;
+    }
+    
+    #painelSeparator{
+        width: 1px;
+        height: 70px;
+        background-color: rgba(241, 241, 241, 0.979);
+        margin: 0px 40px 0px 40px;
+        border-radius: 1px;
+    }
+    
+    #iconsContainer{
+        display: flex;
+    }
+    
+    #icons{
+        width: 12px;
+        height: 11px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px ;
+    }
+    
+    #icons:hover{
+        border: 2px solid $GreenDefault;
+    }
+    
+    .imageIcon{
+        width: 10px;
+    }
+    
+    .imageProfile{
+        width: 326px;
+    }
+}

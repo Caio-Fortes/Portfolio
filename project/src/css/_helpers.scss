@@ -1,11 +1,11 @@
-//Variables
+// Default Variables
 
 $BlackDefault: #111418;
 $GreenDefault: #40928A;
 $WhiteParagrafs: rgb(241 241 241 / 92%);
 $BlackSecondary: #212529;
 
-//fonts
+// Default fonts
 
 @font-face {
     font-family: 'default';
@@ -27,7 +27,24 @@ $BlackSecondary: #212529;
     src: url('/fonts/Poppins-Regular.ttf') format('truetype');
 }
 
-//Mixins
+// Reusable Class
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+#flexCenter{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+// Reusable Mixins 
 
 @mixin setTitlesContainer(){
     #titleContainer{
